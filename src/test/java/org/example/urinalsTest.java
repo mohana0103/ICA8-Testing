@@ -10,5 +10,10 @@ public class urinalsTest {
         System.out.println("====== Mohana Deepthi Karumanchi == TEST ONE EXECUTED =======");
         assertEquals(2, urinals.resultUrinals("1000001"));
     }
+    @Test
+    public void Testtwo() {
+        System.out.println("====== Mohana Deepthi Karumanchi == TEST TWO EXECUTED =======");
+        assertEquals(1, urinals.resultUrinals("1000"));
+    }
 
 }

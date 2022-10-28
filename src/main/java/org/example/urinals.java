@@ -22,6 +22,9 @@ public class urinals {
 
         String[] uri = urinals.split("");
         int result = 0;
+        if(urinals.equals(null)) return 0;
+        if(urinals.equals("0")) return 1;
+        if(urinals.equals("1")) return 0;
         boolean bool = true;
         for (int i = 0; i < uri.length; i++) {
             boolean prev = bool && (i == 0 || uri[i - 1].equals("0"));
