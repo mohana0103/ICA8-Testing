@@ -26,5 +26,10 @@ public class urinalsTest {
         System.out.println("====== Mohana Deepthi Karumanchi == TEST FOUR EXECUTED =======");
         assertEquals(0, urinals.resultUrinals("1"));
     }
+    @Test
+    public void Testfive() {
+        System.out.println("====== Mohana Deepthi Karumanchi == TEST FIVE EXECUTED =======");
+        assertEquals(0, urinals.resultUrinals("10"));
+    }
 
 }
