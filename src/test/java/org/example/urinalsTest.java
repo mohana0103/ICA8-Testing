@@ -8,7 +8,7 @@ public class urinalsTest {
     @Test
     public void Test() {
         System.out.println("====== Mohana Deepthi Karumanchi == TEST ONE EXECUTED =======");
-        assertEquals(0, urinals.resultUrinals("1000001"));
+        assertEquals(2, urinals.resultUrinals("1000001"));
     }
 
 }
